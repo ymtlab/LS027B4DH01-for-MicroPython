@@ -12,6 +12,7 @@
 ## how to use
 
 ### init
+```
 lcd = LS027B4DH01()
 lcd.spi = SPI(
     2, #vspi = id = 2
@@ -23,6 +24,7 @@ lcd.scs      = Pin(32, Pin.OUT)
 lcd.extcomin = Pin(33, Pin.OUT)
 lcd.disp     = Pin(25, Pin.OUT)
 lcd.initialize()
+```
 
 ### draw one line
 lcd.data_update_one_line(120, [0x00] * 50)
