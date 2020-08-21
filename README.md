@@ -11,7 +11,7 @@
 
 ## how to use
 
-## init
+### init
 lcd = LS027B4DH01()
 lcd.spi = SPI(
     2, #vspi = id = 2
