@@ -55,7 +55,7 @@ lcd.data_update_all_line()
 
 ### draw character
 ```
-lcd.character(10, 50, ')
+lcd.character(10, 50, 'a')
 ```
 
 ### draw string
