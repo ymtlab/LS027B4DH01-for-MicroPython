@@ -13,6 +13,9 @@
 
 ### init
 ```
+from machine import Pin, SPI
+from LS027B4DH01 import LS027B4DH01
+
 lcd = LS027B4DH01()
 lcd.spi = SPI(
     2, #vspi = id = 2
